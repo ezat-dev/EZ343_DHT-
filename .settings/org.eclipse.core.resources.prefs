@@ -1,5 +1,7 @@
 eclipse.preferences.version=1
 encoding//src/main/java=UTF-8
 encoding//src/test/java=UTF-8
+encoding//webapp/WEB-INF/views/auto_con/index.jsp=UTF-8
 encoding//webapp/WEB-INF/views/furnace/recipeData.jsp=UTF-8
 encoding//webapp/WEB-INF/views/include/mainHeader.jsp=UTF-8
+encoding//webapp/WEB-INF/views/overview_1-1/index.jsp=UTF-8

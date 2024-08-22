@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.ace</groupId>
 	<artifactId>web</artifactId>
-	<name>donghwa</name>
+	<name>DHT</name>
 	<packaging>war</packaging>
 	<version>1.0.0-BUILD-SNAPSHOT</version>
 	<properties>
@@ -13,7 +13,7 @@
 	</properties>
 	
   <build>
-  	<finalName>donghwa</finalName><!-- 나중에 war파일의 이름 -->
+  	<finalName>DHT</finalName><!-- 나중에 war파일의 이름 -->
   	<plugins>
   		<plugin>
   			<artifactId>maven-compiler-plugin</artifactId>

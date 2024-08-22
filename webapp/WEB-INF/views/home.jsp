@@ -4,10 +4,10 @@
 <head>
 	<title>Home</title>
 </head>
-  <%@ include file="include/mainHeader.jsp" %>
+
 <body>
 <h1>
-	Hello world!  
+	Hello world!  DHT
 </h1>
 
 <P>  The time on the server is ${serverTime}. </P>

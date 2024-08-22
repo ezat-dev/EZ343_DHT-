@@ -11,7 +11,7 @@
 	</appender>
 	
 	<!-- Application Loggers -->
-	<logger name="com.ace.donghwa">
+	<logger name="com.ace.DHT">
 		<level value="info" />
 	</logger>
 	

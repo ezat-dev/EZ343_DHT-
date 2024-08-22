@@ -1,11 +1,13 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./vars.css">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="/DHT/css/overview_2_1/vars.css">
+  <link rel="stylesheet" href="/DHT/css/overview_2_1/style.css">
   
   
   <style>
@@ -43,7 +45,7 @@
       <div class="header"></div>
       <div class="footer"></div>
       <div class="main"></div>
-      <img class="hamburger-icon-svg-1" src="hamburger-icon-svg-10.png" />
+      <img class="hamburger-icon-svg-1" src="/DHT/image/overview_2_1/hamburger-icon-svg-10.png" />
     </div>
     <div class="product-data"></div>
     <div class="pro-data-text-box"></div>
@@ -284,80 +286,80 @@
     <div class="pro-data-text-25">25</div>
     <div class="pro-data-text-26">26</div>
     <div class="pro-data-text-27">27</div>
-    <img class="background-1" src="background-10.png" />
-    <img class="cm" src="cm0.png" />
-    <img class="short-1" src="short-10.png" />
-    <img class="x-box-1" src="x-box-10.png" />
-    <img class="x-box-2" src="x-box-20.png" />
-    <img class="elevator-1" src="elevator-10.png" />
-    <img class="elevator-2" src="elevator-20.png" />
-    <img class="elevator-3" src="elevator-30.png" />
-    <img class="green-up-1" src="green-up-10.png" />
-    <img class="green-down-1" src="green-down-10.png" />
-    <img class="green-up-2" src="green-up-20.png" />
-    <img class="green-down-2" src="green-down-20.png" />
-    <img class="green-up-3" src="green-up-30.png" />
-    <img class="green-down-3" src="green-down-30.png" />
-    <img class="green-up-4" src="green-up-40.png" />
-    <img class="green-down-4" src="green-down-40.png" />
-    <img class="green-up-5" src="green-up-50.png" />
-    <img class="green-down-5" src="green-down-50.png" />
-    <img class="green-up-6" src="green-up-60.png" />
-    <img class="green-down-6" src="green-down-60.png" />
-    <img class="green-up-7" src="green-up-70.png" />
-    <img class="green-down-7" src="green-down-70.png" />
-    <img class="green-up-8" src="green-up-80.png" />
-    <img class="green-down-8" src="green-down-80.png" />
-    <img class="bupum-red-1" src="bupum-red-10.png" />
-    <img class="bupum-green-1" src="bupum-green-10.png" />
-    <img class="bupum-yellow-1" src="bupum-yellow-10.png" />
-    <img class="cap-1" src="cap-10.png" />
-    <img class="big-red-pen" src="big-red-pen0.png" />
-    <img class="flu-1" src="flu-10.png" />
-    <img class="hose" src="hose0.png" />
-    <img class="lamp-red-1" src="lamp-red-10.png" />
-    <img class="lamp-green-1" src="lamp-green-10.png" />
-    <img class="pen-rol-1" src="pen-rol-10.png" />
-    <img class="lamp-red-2" src="lamp-red-20.png" />
-    <img class="lamp-green-2" src="lamp-green-20.png" />
-    <img class="pen-rol-2" src="pen-rol-20.png" />
-    <img class="lamp-red-3" src="lamp-red-30.png" />
-    <img class="lamp-green-3" src="lamp-green-30.png" />
-    <img class="pen-rol-3" src="pen-rol-30.png" />
-    <img class="cut-lamp-red" src="cut-lamp-red0.png" />
-    <img class="cut-lamp-green" src="cut-lamp-green0.png" />
-    <img class="moter-red-1" src="moter-red-10.png" />
-    <img class="moter-green-1" src="moter-green-10.png" />
-    <img class="moter-red-12" src="moter-red-11.png" />
-    <img class="moter-green-12" src="moter-green-11.png" />
-    <img class="moter-red-13" src="moter-red-12.png" />
-    <img class="moter-green-13" src="moter-green-12.png" />
-    <img class="moter-red-14" src="moter-red-13.png" />
-    <img class="moter-green-14" src="moter-green-13.png" />
-    <img class="moter-red-15" src="moter-red-14.png" />
-    <img class="moter-green-15" src="moter-green-14.png" />
-    <img class="moter-red-16" src="moter-red-15.png" />
-    <img class="moter-green-16" src="moter-green-15.png" />
-    <img class="moter-red-17" src="moter-red-16.png" />
-    <img class="moter-green-17" src="moter-green-16.png" />
-    <img class="moter-red-18" src="moter-red-17.png" />
-    <img class="moter-green-18" src="moter-green-17.png" />
-    <img class="moter-red-19" src="moter-red-18.png" />
-    <img class="moter-green-19" src="moter-green-18.png" />
-    <img class="bupum-red-2" src="bupum-red-20.png" />
-    <img class="bupum-green-2" src="bupum-green-20.png" />
-    <img class="bupum-yellow-2" src="bupum-yellow-20.png" />
-    <img class="bupum-red-3" src="bupum-red-30.png" />
-    <img class="bupum-green-3" src="bupum-green-30.png" />
-    <img class="bupum-yellow-3" src="bupum-yellow-30.png" />
-    <img class="moter-red-110" src="moter-red-19.png" />
-    <img class="moter-green-110" src="moter-green-19.png" />
-    <img class="moter-red-111" src="moter-red-110.png" />
-    <img class="moter-green-111" src="moter-green-110.png" />
-    <img class="moter-red-112" src="moter-red-111.png" />
-    <img class="moter-green-112" src="moter-green-111.png" />
-    <img class="moter-red-113" src="moter-red-112.png" />
-    <img class="moter-green-113" src="moter-green-112.png" />
+    <img class="background-1" src="/DHT/image/overview_2_1/background-10.png" />
+    <img class="cm" src="/DHT/image/overview_2_1/cm0.png" />
+    <img class="short-1" src="/DHT/image/overview_2_1/short-10.png" />
+    <img class="x-box-1" src="/DHT/image/overview_2_1/x-box-10.png" />
+    <img class="x-box-2" src="/DHT/image/overview_2_1/x-box-20.png" />
+    <img class="elevator-1" src="/DHT/image/overview_2_1/elevator-10.png" />
+    <img class="elevator-2" src="/DHT/image/overview_2_1/elevator-20.png" />
+    <img class="elevator-3" src="/DHT/image/overview_2_1/elevator-30.png" />
+    <img class="green-up-1" src="/DHT/image/overview_2_1/green-up-10.png" />
+    <img class="green-down-1" src="/DHT/image/overview_2_1/green-down-10.png" />
+    <img class="green-up-2" src="/DHT/image/overview_2_1/green-up-20.png" />
+    <img class="green-down-2" src="/DHT/image/overview_2_1/green-down-20.png" />
+    <img class="green-up-3" src="/DHT/image/overview_2_1/green-up-30.png" />
+    <img class="green-down-3" src="/DHT/image/overview_2_1/green-down-30.png" />
+    <img class="green-up-4" src="/DHT/image/overview_2_1/green-up-40.png" />
+    <img class="green-down-4" src="/DHT/image/overview_2_1/green-down-40.png" />
+    <img class="green-up-5" src="/DHT/image/overview_2_1/green-up-50.png" />
+    <img class="green-down-5" src="/DHT/image/overview_2_1/green-down-50.png" />
+    <img class="green-up-6" src="/DHT/image/overview_2_1/green-up-60.png" />
+    <img class="green-down-6" src="/DHT/image/overview_2_1/green-down-60.png" />
+    <img class="green-up-7" src="/DHT/image/overview_2_1/green-up-70.png" />
+    <img class="green-down-7" src="/DHT/image/overview_2_1/green-down-70.png" />
+    <img class="green-up-8" src="/DHT/image/overview_2_1/green-up-80.png" />
+    <img class="green-down-8" src="/DHT/image/overview_2_1/green-down-80.png" />
+    <img class="bupum-red-1" src="/DHT/image/overview_2_1/bupum-red-10.png" />
+    <img class="bupum-green-1" src="/DHT/image/overview_2_1/bupum-green-10.png" />
+    <img class="bupum-yellow-1" src="/DHT/image/overview_2_1/bupum-yellow-10.png" />
+    <img class="cap-1" src="/DHT/image/overview_2_1/cap-10.png" />
+    <img class="big-red-pen" src="/DHT/image/overview_2_1/big-red-pen0.png" />
+    <img class="flu-1" src="/DHT/image/overview_2_1/flu-10.png" />
+    <img class="hose" src="/DHT/image/overview_2_1/hose0.png" />
+    <img class="lamp-red-1" src="/DHT/image/overview_2_1/lamp-red-10.png" />
+    <img class="lamp-green-1" src="/DHT/image/overview_2_1/lamp-green-10.png" />
+    <img class="pen-rol-1" src="/DHT/image/overview_2_1/pen-rol-10.png" />
+    <img class="lamp-red-2" src="/DHT/image/overview_2_1/lamp-red-20.png" />
+    <img class="lamp-green-2" src="/DHT/image/overview_2_1/lamp-green-20.png" />
+    <img class="pen-rol-2" src="/DHT/image/overview_2_1/pen-rol-20.png" />
+    <img class="lamp-red-3" src="/DHT/image/overview_2_1/lamp-red-30.png" />
+    <img class="lamp-green-3" src="/DHT/image/overview_2_1/lamp-green-30.png" />
+    <img class="pen-rol-3" src="/DHT/image/overview_2_1/pen-rol-30.png" />
+    <img class="cut-lamp-red" src="/DHT/image/overview_2_1/cut-lamp-red0.png" />
+    <img class="cut-lamp-green" src="/DHT/image/overview_2_1/cut-lamp-green0.png" />
+    <img class="moter-red-1" src="/DHT/image/overview_2_1/moter-red-10.png" />
+    <img class="moter-green-1" src="/DHT/image/overview_2_1/moter-green-10.png" />
+    <img class="moter-red-12" src="/DHT/image/overview_2_1/moter-red-11.png" />
+    <img class="moter-green-12" src="/DHT/image/overview_2_1/moter-green-11.png" />
+    <img class="moter-red-13" src="/DHT/image/overview_2_1/moter-red-12.png" />
+    <img class="moter-green-13" src="/DHT/image/overview_2_1/moter-green-12.png" />
+    <img class="moter-red-14" src="/DHT/image/overview_2_1/moter-red-13.png" />
+    <img class="moter-green-14" src="/DHT/image/overview_2_1/moter-green-13.png" />
+    <img class="moter-red-15" src="/DHT/image/overview_2_1/moter-red-14.png" />
+    <img class="moter-green-15" src="/DHT/image/overview_2_1/moter-green-14.png" />
+    <img class="moter-red-16" src="/DHT/image/overview_2_1/moter-red-15.png" />
+    <img class="moter-green-16" src="/DHT/image/overview_2_1/moter-green-15.png" />
+    <img class="moter-red-17" src="/DHT/image/overview_2_1/moter-red-16.png" />
+    <img class="moter-green-17" src="/DHT/image/overview_2_1/moter-green-16.png" />
+    <img class="moter-red-18" src="/DHT/image/overview_2_1/moter-red-17.png" />
+    <img class="moter-green-18" src="/DHT/image/overview_2_1/moter-green-17.png" />
+    <img class="moter-red-19" src="/DHT/image/overview_2_1/moter-red-18.png" />
+    <img class="moter-green-19" src="/DHT/image/overview_2_1/moter-green-18.png" />
+    <img class="bupum-red-2" src="/DHT/image/overview_2_1/bupum-red-20.png" />
+    <img class="bupum-green-2" src="/DHT/image/overview_2_1/bupum-green-20.png" />
+    <img class="bupum-yellow-2" src="/DHT/image/overview_2_1/bupum-yellow-20.png" />
+    <img class="bupum-red-3" src="/DHT/image/overview_2_1/bupum-red-30.png" />
+    <img class="bupum-green-3" src="/DHT/image/overview_2_1/bupum-green-30.png" />
+    <img class="bupum-yellow-3" src="/DHT/image/overview_2_1/bupum-yellow-30.png" />
+    <img class="moter-red-110" src="/DHT/image/overview_2_1/moter-red-19.png" />
+    <img class="moter-green-110" src="/DHT/image/overview_2_1/moter-green-19.png" />
+    <img class="moter-red-111" src="/DHT/image/overview_2_1/moter-red-110.png" />
+    <img class="moter-green-111" src="/DHT/image/overview_2_1/moter-green-110.png" />
+    <img class="moter-red-112" src="/DHT/image/overview_2_1/moter-red-111.png" />
+    <img class="moter-green-112" src="/DHT/image/overview_2_1/moter-green-111.png" />
+    <img class="moter-red-113" src="/DHT/image/overview_2_1/moter-red-112.png" />
+    <img class="moter-green-113" src="/DHT/image/overview_2_1/moter-green-112.png" />
     <div class="door-green-1"></div>
     <div class="door-yellow-1"></div>
     <div class="door-red-1"></div>
@@ -379,36 +381,36 @@
     <div class="door-green-7"></div>
     <div class="door-yellow-7"></div>
     <div class="door-red-7"></div>
-    <img class="yello-left-1" src="yello-left-10.png" />
-    <img class="yello-right-1" src="yello-right-10.png" />
-    <img class="yello-left-2" src="yello-left-20.png" />
-    <img class="yello-left-3" src="yello-left-30.png" />
-    <img class="yello-left-4" src="yello-left-40.png" />
-    <img class="yello-left-5" src="yello-left-50.png" />
-    <img class="yello-left-6" src="yello-left-60.png" />
-    <img class="yello-left-7" src="yello-left-70.png" />
-    <img class="yello-left-8" src="yello-left-80.png" />
-    <img class="yello-left-9" src="yello-left-90.png" />
-    <img class="yello-left-10" src="yello-left-100.png" />
-    <img class="yello-left-11" src="yello-left-110.png" />
-    <img class="yello-left-12" src="yello-left-120.png" />
-    <img class="yello-left-13" src="yello-left-130.png" />
-    <img class="yello-right-2" src="yello-right-20.png" />
-    <img class="yello-left-14" src="yello-left-140.png" />
-    <img class="yello-right-3" src="yello-right-30.png" />
-    <img class="yello-left-15" src="yello-left-150.png" />
-    <img class="yello-left-16" src="yello-left-160.png" />
-    <img class="yello-right-4" src="yello-right-40.png" />
-    <img class="flu-2" src="flu-20.png" />
-    <img class="_3" src="_30.png" />
-    <img class="sensor-red-1" src="sensor-red-10.png" />
-    <img class="sensor-green-1" src="sensor-green-10.png" />
-    <img class="sensor-red-2" src="sensor-red-20.png" />
-    <img class="sensor-green-2" src="sensor-green-20.png" />
-    <img class="sensor-red-3" src="sensor-red-30.png" />
-    <img class="sensor-green-3" src="sensor-green-30.png" />
-    <img class="sensor-red-4" src="sensor-red-40.png" />
-    <img class="sensor-green-4" src="sensor-green-40.png" />
+    <img class="yello-left-1" src="/DHT/image/overview_2_1/yello-left-10.png" />
+    <img class="yello-right-1" src="/DHT/image/overview_2_1/yello-right-10.png" />
+    <img class="yello-left-2" src="/DHT/image/overview_2_1/yello-left-20.png" />
+    <img class="yello-left-3" src="/DHT/image/overview_2_1/yello-left-30.png" />
+    <img class="yello-left-4" src="/DHT/image/overview_2_1/yello-left-40.png" />
+    <img class="yello-left-5" src="/DHT/image/overview_2_1/yello-left-50.png" />
+    <img class="yello-left-6" src="/DHT/image/overview_2_1/yello-left-60.png" />
+    <img class="yello-left-7" src="/DHT/image/overview_2_1/yello-left-70.png" />
+    <img class="yello-left-8" src="/DHT/image/overview_2_1/yello-left-80.png" />
+    <img class="yello-left-9" src="/DHT/image/overview_2_1/yello-left-90.png" />
+    <img class="yello-left-10" src="/DHT/image/overview_2_1/yello-left-100.png" />
+    <img class="yello-left-11" src="/DHT/image/overview_2_1/yello-left-110.png" />
+    <img class="yello-left-12" src="/DHT/image/overview_2_1/yello-left-120.png" />
+    <img class="yello-left-13" src="/DHT/image/overview_2_1/yello-left-130.png" />
+    <img class="yello-right-2" src="/DHT/image/overview_2_1/yello-right-20.png" />
+    <img class="yello-left-14" src="/DHT/image/overview_2_1/yello-left-140.png" />
+    <img class="yello-right-3" src="/DHT/image/overview_2_1/yello-right-30.png" />
+    <img class="yello-left-15" src="/DHT/image/overview_2_1/yello-left-150.png" />
+    <img class="yello-left-16" src="/DHT/image/overview_2_1/yello-left-160.png" />
+    <img class="yello-right-4" src="/DHT/image/overview_2_1/yello-right-40.png" />
+    <img class="flu-2" src="/DHT/image/overview_2_1/flu-20.png" />
+    <img class="_3" src="/DHT/image/overview_2_1/_30.png" />
+    <img class="sensor-red-1" src="/DHT/image/overview_2_1/sensor-red-10.png" />
+    <img class="sensor-green-1" src="/DHT/image/overview_2_1/sensor-green-10.png" />
+    <img class="sensor-red-2" src="/DHT/image/overview_2_1/sensor-red-20.png" />
+    <img class="sensor-green-2" src="/DHT/image/overview_2_1/sensor-green-20.png" />
+    <img class="sensor-red-3" src="/DHT/image/overview_2_1/sensor-red-30.png" />
+    <img class="sensor-green-3" src="/DHT/image/overview_2_1/sensor-green-30.png" />
+    <img class="sensor-red-4" src="/DHT/image/overview_2_1/sensor-red-40.png" />
+    <img class="sensor-green-4" src="/DHT/image/overview_2_1/sensor-green-40.png" />
     <div class="tong-0"></div>
     <div class="tong-1"></div>
     <div class="tong-2"></div>
