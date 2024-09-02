@@ -1,8 +1,8 @@
-.auto-con,
-.auto-con * {
+.group-5,
+.group-5 * {
   box-sizing: border-box;
 }
-.auto-con {
+.group-5 {
   height: 878px;
   position: relative;
 }
@@ -19,21 +19,23 @@
   left: 0px;
   top: 0px;
 }
-.footer {
-  background: #123478;
-  width: 1918px;
+  #ft {
+  background-color: #123478;
   height: 72.43px;
-  position: absolute;
-  left: 0px;
-  top: 805.57px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 10; /* 필요시 조정, 다른 요소들보다 위에 표시되도록 */
 }
+   
 .main {
   background: #ffffff;
   width: 1918px;
-  height: 758.89px;
+  height: 840px;
   position: absolute;
   left: 0px;
-  top: 46.68px;
+  top: 60.68px;
 }
 .hamburger-icon-svg-1 {
   width: 33px;
@@ -45,6 +47,11 @@
   transform: rotate(0deg) scale(1, -1);
   object-fit: cover;
 }
+.group-4 {
+  width: 1824px;
+  height: 710px;
+  position: static;
+}
 .auto-big-box-1 {
   background: #f1f1f1;
   border-style: solid;
@@ -54,7 +61,7 @@
   height: 710px;
   position: absolute;
   left: 47px;
-  top: 71px;
+  top: 105px;
 }
 .auto-big-box-2 {
   background: #f1f1f1;
@@ -65,7 +72,7 @@
   height: 710px;
   position: absolute;
   left: 510px;
-  top: 71px;
+  top: 105px;
 }
 .auto-big-box-3 {
   background: #f1f1f1;
@@ -76,7 +83,7 @@
   height: 710px;
   position: absolute;
   left: 974px;
-  top: 71px;
+  top: 105px;
 }
 .auto-big-box-4 {
   background: #f1f1f1;
@@ -87,7 +94,7 @@
   height: 710px;
   position: absolute;
   left: 1438px;
-  top: 71px;
+  top: 105px;
 }
 .pre-text {
   color: #000000;
@@ -97,7 +104,49 @@
   font-weight: 700;
   position: absolute;
   left: 124px;
-  top: 106px;
+  top: 140px;
+}
+.pre-ok {
+  background: #00ff0a;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 85px;
+  height: 48px;
+  position: absolute;
+  left: 349px;
+  top: 130px;
+}
+.pre-ok-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 365px;
+  top: 137px;
+}
+.pre-no {
+  background: #ff0000;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 85px;
+  height: 48px;
+  position: absolute;
+  left: 349px;
+  top: 130px;
+}
+.pre-no-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 352px;
+  top: 137px;
 }
 .rectangle-1 {
   background: #d9d9d9;
@@ -108,7 +157,7 @@
   height: 36px;
   position: absolute;
   left: 57px;
-  top: 176px;
+  top: 210px;
 }
 .rectangle-2 {
   background: #d9d9d9;
@@ -119,7 +168,7 @@
   height: 36px;
   position: absolute;
   left: 132px;
-  top: 176px;
+  top: 210px;
 }
 .rectangle-3 {
   background: #d9d9d9;
@@ -130,7 +179,7 @@
   height: 36px;
   position: absolute;
   left: 57px;
-  top: 218px;
+  top: 252px;
 }
 .rectangle-4 {
   background: #d9d9d9;
@@ -141,7 +190,7 @@
   height: 36px;
   position: absolute;
   left: 132px;
-  top: 218px;
+  top: 252px;
 }
 .rectangle-5 {
   background: #d9d9d9;
@@ -152,7 +201,7 @@
   height: 36px;
   position: absolute;
   left: 57px;
-  top: 260px;
+  top: 294px;
 }
 .rectangle-6 {
   background: #d9d9d9;
@@ -163,7 +212,7 @@
   height: 36px;
   position: absolute;
   left: 132px;
-  top: 260px;
+  top: 294px;
 }
 .rectangle-7 {
   background: #d9d9d9;
@@ -174,7 +223,7 @@
   height: 36px;
   position: absolute;
   left: 57px;
-  top: 303px;
+  top: 337px;
 }
 .rectangle-8 {
   background: #d9d9d9;
@@ -185,7 +234,7 @@
   height: 36px;
   position: absolute;
   left: 132px;
-  top: 303px;
+  top: 337px;
 }
 .rectangle-9 {
   background: #d9d9d9;
@@ -196,7 +245,7 @@
   height: 36px;
   position: absolute;
   left: 57px;
-  top: 345px;
+  top: 379px;
 }
 .rectangle-10 {
   background: #d9d9d9;
@@ -207,7 +256,7 @@
   height: 36px;
   position: absolute;
   left: 132px;
-  top: 345px;
+  top: 379px;
 }
 .rectangle-11 {
   background: #d9d9d9;
@@ -218,7 +267,7 @@
   height: 36px;
   position: absolute;
   left: 57px;
-  top: 387px;
+  top: 421px;
 }
 .rectangle-12 {
   background: #d9d9d9;
@@ -229,7 +278,7 @@
   height: 36px;
   position: absolute;
   left: 132px;
-  top: 387px;
+  top: 421px;
 }
 .rectangle-13 {
   background: #d9d9d9;
@@ -240,7 +289,7 @@
   height: 36px;
   position: absolute;
   left: 57px;
-  top: 429px;
+  top: 463px;
 }
 .rectangle-14 {
   background: #d9d9d9;
@@ -251,7 +300,7 @@
   height: 36px;
   position: absolute;
   left: 132px;
-  top: 429px;
+  top: 463px;
 }
 .rectangle-15 {
   background: #d9d9d9;
@@ -262,7 +311,7 @@
   height: 36px;
   position: absolute;
   left: 57px;
-  top: 472px;
+  top: 506px;
 }
 .rectangle-16 {
   background: #d9d9d9;
@@ -273,7 +322,7 @@
   height: 36px;
   position: absolute;
   left: 132px;
-  top: 472px;
+  top: 506px;
 }
 .rectangle-17 {
   background: #d9d9d9;
@@ -284,7 +333,7 @@
   height: 36px;
   position: absolute;
   left: 57px;
-  top: 514px;
+  top: 548px;
 }
 .rectangle-18 {
   background: #d9d9d9;
@@ -295,7 +344,7 @@
   height: 36px;
   position: absolute;
   left: 132px;
-  top: 514px;
+  top: 548px;
 }
 .rectangle-19 {
   background: #d9d9d9;
@@ -306,7 +355,7 @@
   height: 36px;
   position: absolute;
   left: 57px;
-  top: 557px;
+  top: 591px;
 }
 .rectangle-20 {
   background: #d9d9d9;
@@ -317,9 +366,19 @@
   height: 36px;
   position: absolute;
   left: 132px;
-  top: 557px;
+  top: 591px;
 }
-.rectangle-21 {
+.seq-entrance-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 543px;
+  top: 140px;
+}
+.seq-entrance-ok {
   background: #00ff0a;
   border-style: solid;
   border-color: #000000;
@@ -327,20 +386,20 @@
   width: 85px;
   height: 48px;
   position: absolute;
-  left: 349px;
-  top: 96px;
+  left: 813px;
+  top: 130px;
 }
-.div {
+.seq-entrance-ok-text {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
   font-size: 28px;
   font-weight: 400;
   position: absolute;
-  left: 365px;
-  top: 103px;
+  left: 829px;
+  top: 137px;
 }
-.rectangle-22 {
+.seq-entrance-no {
   background: #ff0000;
   border-style: solid;
   border-color: #000000;
@@ -348,28 +407,18 @@
   width: 85px;
   height: 48px;
   position: absolute;
-  left: 349px;
-  top: 96px;
+  left: 813px;
+  top: 130px;
 }
-.div2 {
+.seq-entrance-no-text {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
   font-size: 28px;
   font-weight: 400;
   position: absolute;
-  left: 352px;
-  top: 103px;
-}
-.pre-text2 {
-  color: #000000;
-  text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  position: absolute;
-  left: 542px;
-  top: 106px;
+  left: 816px;
+  top: 137px;
 }
 .rectangle-23 {
   background: #d9d9d9;
@@ -380,7 +429,7 @@
   height: 36px;
   position: absolute;
   left: 521px;
-  top: 176px;
+  top: 210px;
 }
 .rectangle-24 {
   background: #d9d9d9;
@@ -391,7 +440,7 @@
   height: 36px;
   position: absolute;
   left: 596px;
-  top: 176px;
+  top: 210px;
 }
 .rectangle-25 {
   background: #d9d9d9;
@@ -402,7 +451,7 @@
   height: 36px;
   position: absolute;
   left: 521px;
-  top: 218px;
+  top: 252px;
 }
 .rectangle-26 {
   background: #d9d9d9;
@@ -413,7 +462,7 @@
   height: 36px;
   position: absolute;
   left: 596px;
-  top: 218px;
+  top: 252px;
 }
 .rectangle-27 {
   background: #d9d9d9;
@@ -424,7 +473,7 @@
   height: 36px;
   position: absolute;
   left: 521px;
-  top: 260px;
+  top: 294px;
 }
 .rectangle-28 {
   background: #d9d9d9;
@@ -435,7 +484,7 @@
   height: 36px;
   position: absolute;
   left: 596px;
-  top: 260px;
+  top: 294px;
 }
 .rectangle-29 {
   background: #d9d9d9;
@@ -446,7 +495,7 @@
   height: 36px;
   position: absolute;
   left: 521px;
-  top: 303px;
+  top: 337px;
 }
 .rectangle-30 {
   background: #d9d9d9;
@@ -457,7 +506,7 @@
   height: 36px;
   position: absolute;
   left: 596px;
-  top: 303px;
+  top: 337px;
 }
 .rectangle-31 {
   background: #d9d9d9;
@@ -468,7 +517,7 @@
   height: 36px;
   position: absolute;
   left: 521px;
-  top: 345px;
+  top: 379px;
 }
 .rectangle-32 {
   background: #d9d9d9;
@@ -479,7 +528,7 @@
   height: 36px;
   position: absolute;
   left: 596px;
-  top: 345px;
+  top: 379px;
 }
 .rectangle-33 {
   background: #d9d9d9;
@@ -490,7 +539,7 @@
   height: 36px;
   position: absolute;
   left: 521px;
-  top: 387px;
+  top: 421px;
 }
 .rectangle-34 {
   background: #d9d9d9;
@@ -501,7 +550,7 @@
   height: 36px;
   position: absolute;
   left: 596px;
-  top: 387px;
+  top: 421px;
 }
 .rectangle-35 {
   background: #d9d9d9;
@@ -512,7 +561,7 @@
   height: 36px;
   position: absolute;
   left: 521px;
-  top: 429px;
+  top: 463px;
 }
 .rectangle-36 {
   background: #d9d9d9;
@@ -523,7 +572,7 @@
   height: 36px;
   position: absolute;
   left: 596px;
-  top: 429px;
+  top: 463px;
 }
 .rectangle-37 {
   background: #d9d9d9;
@@ -534,7 +583,7 @@
   height: 36px;
   position: absolute;
   left: 521px;
-  top: 472px;
+  top: 506px;
 }
 .rectangle-38 {
   background: #d9d9d9;
@@ -545,7 +594,7 @@
   height: 36px;
   position: absolute;
   left: 596px;
-  top: 472px;
+  top: 506px;
 }
 .rectangle-39 {
   background: #d9d9d9;
@@ -556,7 +605,7 @@
   height: 36px;
   position: absolute;
   left: 521px;
-  top: 514px;
+  top: 548px;
 }
 .rectangle-40 {
   background: #d9d9d9;
@@ -567,7 +616,7 @@
   height: 36px;
   position: absolute;
   left: 596px;
-  top: 514px;
+  top: 548px;
 }
 .rectangle-41 {
   background: #d9d9d9;
@@ -578,7 +627,7 @@
   height: 36px;
   position: absolute;
   left: 521px;
-  top: 557px;
+  top: 591px;
 }
 .rectangle-42 {
   background: #d9d9d9;
@@ -589,9 +638,19 @@
   height: 36px;
   position: absolute;
   left: 596px;
-  top: 557px;
+  top: 591px;
 }
-.rectangle-43 {
+.seq-exit-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 1006px;
+  top: 140px;
+}
+.seq-exit-ok {
   background: #00ff0a;
   border-style: solid;
   border-color: #000000;
@@ -599,20 +658,20 @@
   width: 85px;
   height: 48px;
   position: absolute;
-  left: 813px;
-  top: 96px;
+  left: 1276px;
+  top: 130px;
 }
-.div3 {
+.seq-exit-ok-text {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
   font-size: 28px;
   font-weight: 400;
   position: absolute;
-  left: 829px;
-  top: 103px;
+  left: 1292px;
+  top: 137px;
 }
-.rectangle-44 {
+.seq-exit-no {
   background: #ff0000;
   border-style: solid;
   border-color: #000000;
@@ -620,28 +679,18 @@
   width: 85px;
   height: 48px;
   position: absolute;
-  left: 813px;
-  top: 96px;
+  left: 1276px;
+  top: 130px;
 }
-.div4 {
+.seq-exit-no-text {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
   font-size: 28px;
   font-weight: 400;
   position: absolute;
-  left: 816px;
-  top: 103px;
-}
-.pre-text3 {
-  color: #000000;
-  text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  position: absolute;
-  left: 1007px;
-  top: 106px;
+  left: 1279px;
+  top: 137px;
 }
 .rectangle-45 {
   background: #d9d9d9;
@@ -652,7 +701,7 @@
   height: 36px;
   position: absolute;
   left: 984px;
-  top: 176px;
+  top: 210px;
 }
 .rectangle-46 {
   background: #d9d9d9;
@@ -663,7 +712,7 @@
   height: 36px;
   position: absolute;
   left: 1059px;
-  top: 176px;
+  top: 210px;
 }
 .rectangle-47 {
   background: #d9d9d9;
@@ -674,7 +723,7 @@
   height: 36px;
   position: absolute;
   left: 984px;
-  top: 218px;
+  top: 252px;
 }
 .rectangle-48 {
   background: #d9d9d9;
@@ -685,7 +734,7 @@
   height: 36px;
   position: absolute;
   left: 1059px;
-  top: 218px;
+  top: 252px;
 }
 .rectangle-49 {
   background: #d9d9d9;
@@ -696,7 +745,7 @@
   height: 36px;
   position: absolute;
   left: 984px;
-  top: 260px;
+  top: 294px;
 }
 .rectangle-50 {
   background: #d9d9d9;
@@ -707,7 +756,7 @@
   height: 36px;
   position: absolute;
   left: 1059px;
-  top: 260px;
+  top: 294px;
 }
 .rectangle-51 {
   background: #d9d9d9;
@@ -718,7 +767,7 @@
   height: 36px;
   position: absolute;
   left: 984px;
-  top: 303px;
+  top: 337px;
 }
 .rectangle-52 {
   background: #d9d9d9;
@@ -729,7 +778,7 @@
   height: 36px;
   position: absolute;
   left: 1059px;
-  top: 303px;
+  top: 337px;
 }
 .rectangle-53 {
   background: #d9d9d9;
@@ -740,7 +789,7 @@
   height: 36px;
   position: absolute;
   left: 984px;
-  top: 345px;
+  top: 379px;
 }
 .rectangle-54 {
   background: #d9d9d9;
@@ -751,7 +800,7 @@
   height: 36px;
   position: absolute;
   left: 1059px;
-  top: 345px;
+  top: 379px;
 }
 .rectangle-55 {
   background: #d9d9d9;
@@ -762,7 +811,7 @@
   height: 36px;
   position: absolute;
   left: 984px;
-  top: 387px;
+  top: 421px;
 }
 .rectangle-56 {
   background: #d9d9d9;
@@ -773,7 +822,7 @@
   height: 36px;
   position: absolute;
   left: 1059px;
-  top: 387px;
+  top: 421px;
 }
 .rectangle-57 {
   background: #d9d9d9;
@@ -784,7 +833,7 @@
   height: 36px;
   position: absolute;
   left: 984px;
-  top: 429px;
+  top: 463px;
 }
 .rectangle-58 {
   background: #d9d9d9;
@@ -795,7 +844,7 @@
   height: 36px;
   position: absolute;
   left: 1059px;
-  top: 429px;
+  top: 463px;
 }
 .rectangle-59 {
   background: #d9d9d9;
@@ -806,7 +855,7 @@
   height: 36px;
   position: absolute;
   left: 984px;
-  top: 472px;
+  top: 506px;
 }
 .rectangle-60 {
   background: #d9d9d9;
@@ -817,7 +866,7 @@
   height: 36px;
   position: absolute;
   left: 1059px;
-  top: 472px;
+  top: 506px;
 }
 .rectangle-61 {
   background: #d9d9d9;
@@ -828,7 +877,7 @@
   height: 36px;
   position: absolute;
   left: 984px;
-  top: 514px;
+  top: 548px;
 }
 .rectangle-62 {
   background: #d9d9d9;
@@ -839,7 +888,7 @@
   height: 36px;
   position: absolute;
   left: 1059px;
-  top: 514px;
+  top: 548px;
 }
 .rectangle-63 {
   background: #d9d9d9;
@@ -850,7 +899,7 @@
   height: 36px;
   position: absolute;
   left: 984px;
-  top: 557px;
+  top: 591px;
 }
 .rectangle-64 {
   background: #d9d9d9;
@@ -861,51 +910,9 @@
   height: 36px;
   position: absolute;
   left: 1059px;
-  top: 557px;
+  top: 591px;
 }
-.rectangle-65 {
-  background: #00ff0a;
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  width: 85px;
-  height: 48px;
-  position: absolute;
-  left: 1276px;
-  top: 96px;
-}
-.div5 {
-  color: #000000;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 28px;
-  font-weight: 400;
-  position: absolute;
-  left: 1292px;
-  top: 103px;
-}
-.rectangle-66 {
-  background: #ff0000;
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  width: 85px;
-  height: 48px;
-  position: absolute;
-  left: 1276px;
-  top: 96px;
-}
-.div6 {
-  color: #000000;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 28px;
-  font-weight: 400;
-  position: absolute;
-  left: 1279px;
-  top: 103px;
-}
-.pre-text4 {
+.oil-text {
   color: #000000;
   text-align: left;
   font-family: "Inter-Bold", sans-serif;
@@ -913,7 +920,49 @@
   font-weight: 700;
   position: absolute;
   left: 1536px;
-  top: 106px;
+  top: 140px;
+}
+.oil-ok {
+  background: #00ff0a;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 85px;
+  height: 48px;
+  position: absolute;
+  left: 1740px;
+  top: 130px;
+}
+.oil-ok-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 1756px;
+  top: 137px;
+}
+.oil-no {
+  background: #ff0000;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 85px;
+  height: 48px;
+  position: absolute;
+  left: 1740px;
+  top: 130px;
+}
+.oil-no-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 1743px;
+  top: 137px;
 }
 .rectangle-67 {
   background: #d9d9d9;
@@ -924,7 +973,7 @@
   height: 36px;
   position: absolute;
   left: 1448px;
-  top: 176px;
+  top: 210px;
 }
 .rectangle-68 {
   background: #d9d9d9;
@@ -935,7 +984,7 @@
   height: 36px;
   position: absolute;
   left: 1523px;
-  top: 176px;
+  top: 210px;
 }
 .rectangle-69 {
   background: #d9d9d9;
@@ -946,7 +995,7 @@
   height: 36px;
   position: absolute;
   left: 1448px;
-  top: 218px;
+  top: 252px;
 }
 .rectangle-70 {
   background: #d9d9d9;
@@ -957,7 +1006,7 @@
   height: 36px;
   position: absolute;
   left: 1523px;
-  top: 218px;
+  top: 252px;
 }
 .rectangle-71 {
   background: #d9d9d9;
@@ -968,7 +1017,7 @@
   height: 36px;
   position: absolute;
   left: 1448px;
-  top: 260px;
+  top: 294px;
 }
 .rectangle-72 {
   background: #d9d9d9;
@@ -979,7 +1028,7 @@
   height: 36px;
   position: absolute;
   left: 1523px;
-  top: 260px;
+  top: 294px;
 }
 .rectangle-73 {
   background: #d9d9d9;
@@ -990,7 +1039,7 @@
   height: 36px;
   position: absolute;
   left: 1448px;
-  top: 303px;
+  top: 337px;
 }
 .rectangle-74 {
   background: #d9d9d9;
@@ -1001,7 +1050,7 @@
   height: 36px;
   position: absolute;
   left: 1523px;
-  top: 303px;
+  top: 337px;
 }
 .rectangle-75 {
   background: #d9d9d9;
@@ -1012,7 +1061,7 @@
   height: 36px;
   position: absolute;
   left: 1448px;
-  top: 345px;
+  top: 379px;
 }
 .rectangle-76 {
   background: #d9d9d9;
@@ -1023,7 +1072,7 @@
   height: 36px;
   position: absolute;
   left: 1523px;
-  top: 345px;
+  top: 379px;
 }
 .rectangle-77 {
   background: #d9d9d9;
@@ -1034,7 +1083,7 @@
   height: 36px;
   position: absolute;
   left: 1448px;
-  top: 387px;
+  top: 421px;
 }
 .rectangle-78 {
   background: #d9d9d9;
@@ -1045,7 +1094,7 @@
   height: 36px;
   position: absolute;
   left: 1523px;
-  top: 387px;
+  top: 421px;
 }
 .rectangle-79 {
   background: #d9d9d9;
@@ -1056,7 +1105,7 @@
   height: 36px;
   position: absolute;
   left: 1448px;
-  top: 429px;
+  top: 463px;
 }
 .rectangle-80 {
   background: #d9d9d9;
@@ -1067,7 +1116,7 @@
   height: 36px;
   position: absolute;
   left: 1523px;
-  top: 429px;
+  top: 463px;
 }
 .rectangle-81 {
   background: #d9d9d9;
@@ -1078,7 +1127,7 @@
   height: 36px;
   position: absolute;
   left: 1448px;
-  top: 472px;
+  top: 506px;
 }
 .rectangle-82 {
   background: #d9d9d9;
@@ -1089,7 +1138,7 @@
   height: 36px;
   position: absolute;
   left: 1523px;
-  top: 472px;
+  top: 506px;
 }
 .rectangle-83 {
   background: #d9d9d9;
@@ -1100,7 +1149,7 @@
   height: 36px;
   position: absolute;
   left: 1448px;
-  top: 514px;
+  top: 548px;
 }
 .rectangle-84 {
   background: #d9d9d9;
@@ -1111,7 +1160,7 @@
   height: 36px;
   position: absolute;
   left: 1523px;
-  top: 514px;
+  top: 548px;
 }
 .rectangle-85 {
   background: #d9d9d9;
@@ -1122,7 +1171,7 @@
   height: 36px;
   position: absolute;
   left: 1448px;
-  top: 557px;
+  top: 591px;
 }
 .rectangle-86 {
   background: #d9d9d9;
@@ -1133,47 +1182,5 @@
   height: 36px;
   position: absolute;
   left: 1523px;
-  top: 557px;
-}
-.rectangle-87 {
-  background: #00ff0a;
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  width: 85px;
-  height: 48px;
-  position: absolute;
-  left: 1740px;
-  top: 96px;
-}
-.div7 {
-  color: #000000;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 28px;
-  font-weight: 400;
-  position: absolute;
-  left: 1756px;
-  top: 103px;
-}
-.rectangle-88 {
-  background: #ff0000;
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  width: 85px;
-  height: 48px;
-  position: absolute;
-  left: 1740px;
-  top: 96px;
-}
-.div8 {
-  color: #000000;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 28px;
-  font-weight: 400;
-  position: absolute;
-  left: 1743px;
-  top: 103px;
+  top: 591px;
 }

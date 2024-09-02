@@ -36,17 +36,20 @@
        margin: 0;
        padding: 0;
    }
+        .footer{
+  	 margin-top:85px;
+   }
    </style>
   <title>Document</title>
 </head>
 <body>
   <div class="overview-2-1">
     <div class="group-3">
-      <div class="header"></div>
-      <div class="footer"></div>
+     <div class="header"><%@ include file="/WEB-INF/resources/header/index.jsp" %></div>
+
+      <div id="ft">  <%@ include file="/WEB-INF/resources/footer/index.jsp" %></div>
       <div class="main"></div>
-      <img class="hamburger-icon-svg-1" src="/DHT/image/overview_2_1/hamburger-icon-svg-10.png" />
-    </div>
+       </div>
     <div class="product-data"></div>
     <div class="pro-data-text-box"></div>
     <div class="cycle-text-box"></div>
@@ -472,6 +475,6 @@
     <div class="tong-text-26">26</div>
     <div class="tong-text-27">27</div>
   </div>
-  
+
 </body>
 </html>

@@ -29,7 +29,9 @@
    
        -webkit-font-smoothing: antialiased;
    }
-   
+        .footer{
+  	 margin-top:85px;
+   }
    menu, ol, ul {
        list-style-type: none;
        margin: 0;
@@ -41,12 +43,14 @@
 <body>
   <div class="auto-con">
     <div class="group-3">
-      <div class="header"></div>
+      <div class="header"><%@ include file="/WEB-INF/resources/header/index.jsp" %></div>
+       <div id="ft">  <%@ include file="/WEB-INF/resources/footer/index.jsp" %></div>
       <div class="footer"></div>
       <div class="main"></div>
-      <img class="hamburger-icon-svg-1" src="/DHT/image/auto_con/hamburger-icon-svg-10.png" />
+      
     </div>
-    <div class="auto-big-box-1"></div>
+
+    <div class="auto-big-box-1">공통로 오토콘</div>
     <div class="auto-big-box-2"></div>
     <div class="auto-big-box-3"></div>
     <div class="auto-big-box-4"></div>

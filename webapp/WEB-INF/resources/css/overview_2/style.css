@@ -1,8 +1,8 @@
-.overview-2,
-.overview-2 * {
+.group-3,
+.group-3 * {
   box-sizing: border-box;
 }
-.overview-2 {
+.group-3 {
   height: 878px;
   position: relative;
 }
@@ -19,21 +19,23 @@
   left: 0px;
   top: 0px;
 }
-.footer {
-  background: #123478;
-  width: 1918px;
+  #ft {
+  background-color: #123478;
   height: 72.43px;
-  position: absolute;
-  left: 0px;
-  top: 805.57px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 10; /* 필요시 조정, 다른 요소들보다 위에 표시되도록 */
 }
+   
 .main {
   background: #ffffff;
   width: 1918px;
-  height: 758.89px;
+  height: 840px;
   position: absolute;
   left: 0px;
-  top: 46.68px;
+  top: 60.68px;
 }
 .hamburger-icon-svg-1 {
   width: 33px;
@@ -45,12 +47,17 @@
   transform: rotate(0deg) scale(1, -1);
   object-fit: cover;
 }
+.group-2 {
+  width: 1888px;
+  height: 722px;
+  position: static;
+}
 .background-1 {
   width: 271px;
   height: 215px;
   position: absolute;
   left: 1393px;
-  top: 86px;
+  top: 116px;
   object-fit: cover;
 }
 .cm {
@@ -58,7 +65,7 @@
   height: 445px;
   position: absolute;
   left: 13px;
-  top: 110px;
+  top: 140px;
   object-fit: cover;
 }
 .short-1 {
@@ -66,7 +73,7 @@
   height: 85px;
   position: absolute;
   left: 491px;
-  top: 350px;
+  top: 380px;
   object-fit: cover;
 }
 .xbox-1 {
@@ -74,7 +81,7 @@
   height: 123px;
   position: absolute;
   left: 549px;
-  top: 249px;
+  top: 279px;
   object-fit: cover;
 }
 .xbox-2 {
@@ -82,7 +89,7 @@
   height: 124px;
   position: absolute;
   left: 1278px;
-  top: 241px;
+  top: 271px;
   object-fit: cover;
 }
 .elevator-1 {
@@ -90,7 +97,7 @@
   height: 184px;
   position: absolute;
   left: 1577px;
-  top: 283px;
+  top: 313px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(-1, 1);
   object-fit: cover;
@@ -100,7 +107,7 @@
   height: 184px;
   position: absolute;
   left: 1577px;
-  top: 231px;
+  top: 261px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(-1, 1);
   object-fit: cover;
@@ -110,7 +117,7 @@
   height: 184px;
   position: absolute;
   left: 1577px;
-  top: 180px;
+  top: 210px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(-1, 1);
   object-fit: cover;
@@ -120,7 +127,7 @@
   height: 57px;
   position: absolute;
   left: 74px;
-  top: 329px;
+  top: 359px;
   object-fit: cover;
 }
 .tong-2 {
@@ -128,7 +135,7 @@
   height: 57px;
   position: absolute;
   left: 120px;
-  top: 329px;
+  top: 359px;
   object-fit: cover;
 }
 .tong-3 {
@@ -136,7 +143,7 @@
   height: 57px;
   position: absolute;
   left: 167px;
-  top: 329px;
+  top: 359px;
   object-fit: cover;
 }
 .tong-4 {
@@ -144,7 +151,7 @@
   height: 57px;
   position: absolute;
   left: 214px;
-  top: 329px;
+  top: 359px;
   object-fit: cover;
 }
 .tong-5 {
@@ -152,7 +159,7 @@
   height: 57px;
   position: absolute;
   left: 274px;
-  top: 329px;
+  top: 359px;
   object-fit: cover;
 }
 .tong-6 {
@@ -160,7 +167,7 @@
   height: 57px;
   position: absolute;
   left: 321px;
-  top: 329px;
+  top: 359px;
   object-fit: cover;
 }
 .tong-7 {
@@ -168,7 +175,7 @@
   height: 57px;
   position: absolute;
   left: 370px;
-  top: 329px;
+  top: 359px;
   object-fit: cover;
 }
 .tong-8 {
@@ -176,7 +183,7 @@
   height: 57px;
   position: absolute;
   left: 417px;
-  top: 329px;
+  top: 359px;
   object-fit: cover;
 }
 .tong-9 {
@@ -184,7 +191,7 @@
   height: 56px;
   position: absolute;
   left: 502px;
-  top: 316px;
+  top: 346px;
   object-fit: cover;
 }
 .tong-10 {
@@ -192,7 +199,7 @@
   height: 57px;
   position: absolute;
   left: 502px;
-  top: 290px;
+  top: 320px;
   object-fit: cover;
 }
 .tong-11 {
@@ -200,7 +207,7 @@
   height: 56px;
   position: absolute;
   left: 582px;
-  top: 310px;
+  top: 340px;
   object-fit: cover;
 }
 .tong-12 {
@@ -208,7 +215,7 @@
   height: 57px;
   position: absolute;
   left: 666px;
-  top: 306px;
+  top: 336px;
   object-fit: cover;
 }
 .tong-13 {
@@ -216,7 +223,7 @@
   height: 57px;
   position: absolute;
   left: 712px;
-  top: 306px;
+  top: 336px;
   object-fit: cover;
 }
 .tong-14 {
@@ -224,7 +231,7 @@
   height: 57px;
   position: absolute;
   left: 756px;
-  top: 306px;
+  top: 336px;
   object-fit: cover;
 }
 .tong-15 {
@@ -232,7 +239,7 @@
   height: 57px;
   position: absolute;
   left: 801px;
-  top: 306px;
+  top: 336px;
   object-fit: cover;
 }
 .tong-16 {
@@ -240,7 +247,7 @@
   height: 57px;
   position: absolute;
   left: 846px;
-  top: 306px;
+  top: 336px;
   object-fit: cover;
 }
 .tong-17 {
@@ -248,7 +255,7 @@
   height: 57px;
   position: absolute;
   left: 891px;
-  top: 306px;
+  top: 336px;
   object-fit: cover;
 }
 .tong-18 {
@@ -256,7 +263,7 @@
   height: 57px;
   position: absolute;
   left: 936px;
-  top: 306px;
+  top: 336px;
   object-fit: cover;
 }
 .tong-19 {
@@ -264,7 +271,7 @@
   height: 57px;
   position: absolute;
   left: 981px;
-  top: 306px;
+  top: 336px;
   object-fit: cover;
 }
 .tong-20 {
@@ -272,7 +279,7 @@
   height: 57px;
   position: absolute;
   left: 1024px;
-  top: 306px;
+  top: 336px;
   object-fit: cover;
 }
 .tong-21 {
@@ -280,7 +287,7 @@
   height: 56px;
   position: absolute;
   left: 1098px;
-  top: 304px;
+  top: 334px;
   object-fit: cover;
 }
 .tong-22 {
@@ -288,7 +295,7 @@
   height: 56px;
   position: absolute;
   left: 1159px;
-  top: 304px;
+  top: 334px;
   object-fit: cover;
 }
 .tong-23 {
@@ -296,7 +303,7 @@
   height: 56px;
   position: absolute;
   left: 1230px;
-  top: 303px;
+  top: 333px;
   object-fit: cover;
 }
 .tong-24 {
@@ -304,7 +311,7 @@
   height: 56px;
   position: absolute;
   left: 1308px;
-  top: 303px;
+  top: 333px;
   object-fit: cover;
 }
 .tong-25 {
@@ -312,7 +319,7 @@
   height: 55px;
   position: absolute;
   left: 1415px;
-  top: 312px;
+  top: 342px;
   object-fit: cover;
 }
 .tong-26 {
@@ -320,7 +327,7 @@
   height: 57px;
   position: absolute;
   left: 1514px;
-  top: 410px;
+  top: 440px;
   object-fit: cover;
 }
 .tong-27 {
@@ -328,7 +335,7 @@
   height: 57px;
   position: absolute;
   left: 1514px;
-  top: 360px;
+  top: 390px;
   object-fit: cover;
 }
 .tong-28 {
@@ -336,7 +343,7 @@
   height: 57px;
   position: absolute;
   left: 1514px;
-  top: 306px;
+  top: 336px;
   object-fit: cover;
 }
 .tong-29 {
@@ -344,7 +351,7 @@
   height: 56px;
   position: absolute;
   left: 1601px;
-  top: 303px;
+  top: 333px;
   object-fit: cover;
 }
 .tong-30 {
@@ -352,7 +359,7 @@
   height: 56px;
   position: absolute;
   left: 1756px;
-  top: 303px;
+  top: 333px;
   object-fit: cover;
 }
 .tong-31 {
@@ -360,7 +367,7 @@
   height: 56px;
   position: absolute;
   left: 1672px;
-  top: 303px;
+  top: 333px;
   object-fit: cover;
 }
 .green-up-1 {
@@ -368,7 +375,7 @@
   height: 27px;
   position: absolute;
   left: 523px;
-  top: 182px;
+  top: 212px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
   object-fit: cover;
@@ -378,7 +385,7 @@
   height: 27px;
   position: absolute;
   left: 523px;
-  top: 213px;
+  top: 243px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
   object-fit: cover;
@@ -388,7 +395,7 @@
   height: 27px;
   position: absolute;
   left: 621px;
-  top: 182px;
+  top: 212px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
   object-fit: cover;
@@ -398,7 +405,7 @@
   height: 27px;
   position: absolute;
   left: 621px;
-  top: 213px;
+  top: 243px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
   object-fit: cover;
@@ -408,7 +415,7 @@
   height: 27px;
   position: absolute;
   left: 1093px;
-  top: 182px;
+  top: 212px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
   object-fit: cover;
@@ -418,7 +425,7 @@
   height: 27px;
   position: absolute;
   left: 1093px;
-  top: 213px;
+  top: 243px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
   object-fit: cover;
@@ -428,7 +435,7 @@
   height: 24px;
   position: absolute;
   left: 1256px;
-  top: 135px;
+  top: 165px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
   object-fit: cover;
@@ -438,7 +445,7 @@
   height: 26px;
   position: absolute;
   left: 1256px;
-  top: 165px;
+  top: 195px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
   object-fit: cover;
@@ -448,7 +455,7 @@
   height: 24px;
   position: absolute;
   left: 1346px;
-  top: 135px;
+  top: 165px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
   object-fit: cover;
@@ -458,7 +465,7 @@
   height: 26px;
   position: absolute;
   left: 1346px;
-  top: 165px;
+  top: 195px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
   object-fit: cover;
@@ -468,7 +475,7 @@
   height: 27px;
   position: absolute;
   left: 1460px;
-  top: 197px;
+  top: 227px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
   object-fit: cover;
@@ -478,7 +485,7 @@
   height: 27px;
   position: absolute;
   left: 1460px;
-  top: 228px;
+  top: 258px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
   object-fit: cover;
@@ -488,7 +495,7 @@
   height: 27px;
   position: absolute;
   left: 1556px;
-  top: 174px;
+  top: 204px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
   object-fit: cover;
@@ -498,7 +505,7 @@
   height: 27px;
   position: absolute;
   left: 1556px;
-  top: 204px;
+  top: 234px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
   object-fit: cover;
@@ -508,7 +515,7 @@
   height: 27px;
   position: absolute;
   left: 1604px;
-  top: 213px;
+  top: 243px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
   object-fit: cover;
@@ -518,7 +525,7 @@
   height: 27px;
   position: absolute;
   left: 1604px;
-  top: 245px;
+  top: 275px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
   object-fit: cover;
@@ -528,7 +535,7 @@
   height: 39px;
   position: absolute;
   left: 188px;
-  top: 390px;
+  top: 420px;
   object-fit: cover;
 }
 .bupum-green-1 {
@@ -536,7 +543,7 @@
   height: 37px;
   position: absolute;
   left: 194px;
-  top: 391px;
+  top: 421px;
   object-fit: cover;
 }
 .bupum-yellow-1 {
@@ -544,7 +551,7 @@
   height: 36px;
   position: absolute;
   left: 192px;
-  top: 392px;
+  top: 422px;
   object-fit: cover;
 }
 .cap-1 {
@@ -552,7 +559,7 @@
   height: 102px;
   position: absolute;
   left: 1280px;
-  top: 180px;
+  top: 210px;
   object-fit: cover;
 }
 .big-red-pen {
@@ -560,7 +567,7 @@
   height: 78px;
   position: absolute;
   left: 1628px;
-  top: 66px;
+  top: 96px;
   object-fit: cover;
 }
 .hose {
@@ -568,7 +575,7 @@
   height: 83px;
   position: absolute;
   left: 1382px;
-  top: 283px;
+  top: 313px;
   object-fit: cover;
 }
 .lamp-red-1 {
@@ -576,7 +583,7 @@
   height: 135px;
   position: absolute;
   left: 726px;
-  top: 168px;
+  top: 198px;
   object-fit: cover;
 }
 .lamp-green-1 {
@@ -584,7 +591,7 @@
   height: 88px;
   position: absolute;
   left: 720px;
-  top: 173px;
+  top: 203px;
   object-fit: cover;
 }
 .pen-rol-1 {
@@ -592,7 +599,7 @@
   height: 39px;
   position: absolute;
   left: 741px;
-  top: 260px;
+  top: 290px;
   object-fit: cover;
 }
 .lamp-red-2 {
@@ -600,7 +607,7 @@
   height: 135px;
   position: absolute;
   left: 832px;
-  top: 168px;
+  top: 198px;
   object-fit: cover;
 }
 .lamp-green-2 {
@@ -608,7 +615,7 @@
   height: 88px;
   position: absolute;
   left: 826px;
-  top: 173px;
+  top: 203px;
   object-fit: cover;
 }
 .pen-rol-2 {
@@ -616,7 +623,7 @@
   height: 39px;
   position: absolute;
   left: 846px;
-  top: 260px;
+  top: 290px;
   object-fit: cover;
 }
 .lamp-red-3 {
@@ -624,7 +631,7 @@
   height: 135px;
   position: absolute;
   left: 936px;
-  top: 168px;
+  top: 198px;
   object-fit: cover;
 }
 .lamp-green-3 {
@@ -632,7 +639,7 @@
   height: 88px;
   position: absolute;
   left: 932px;
-  top: 173px;
+  top: 203px;
   object-fit: cover;
 }
 .pen-rol-3 {
@@ -640,7 +647,7 @@
   height: 39px;
   position: absolute;
   left: 952px;
-  top: 260px;
+  top: 290px;
   object-fit: cover;
 }
 .lamp-red-4 {
@@ -648,7 +655,7 @@
   height: 133px;
   position: absolute;
   left: 1400px;
-  top: 179px;
+  top: 209px;
   object-fit: cover;
 }
 .lamp-green-4 {
@@ -656,7 +663,7 @@
   height: 89px;
   position: absolute;
   left: 1397px;
-  top: 198px;
+  top: 228px;
   object-fit: cover;
 }
 .moter-red-1 {
@@ -664,7 +671,7 @@
   height: 42px;
   position: absolute;
   left: 392px;
-  top: 392px;
+  top: 422px;
   object-fit: cover;
 }
 .moter-green-1 {
@@ -672,7 +679,7 @@
   height: 27px;
   position: absolute;
   left: 399px;
-  top: 396px;
+  top: 426px;
   object-fit: cover;
 }
 .moter-red-2 {
@@ -680,7 +687,7 @@
   height: 42px;
   position: absolute;
   left: 508px;
-  top: 392px;
+  top: 422px;
   object-fit: cover;
 }
 .moter-green-2 {
@@ -688,7 +695,7 @@
   height: 27px;
   position: absolute;
   left: 514px;
-  top: 396px;
+  top: 426px;
   object-fit: cover;
 }
 .moter-red-3 {
@@ -696,7 +703,7 @@
   height: 39px;
   position: absolute;
   left: 580px;
-  top: 386px;
+  top: 416px;
   object-fit: cover;
 }
 .moter-green-3 {
@@ -704,7 +711,7 @@
   height: 27px;
   position: absolute;
   left: 587px;
-  top: 390px;
+  top: 420px;
   object-fit: cover;
 }
 .moter-red-4 {
@@ -712,7 +719,7 @@
   height: 40px;
   position: absolute;
   left: 674px;
-  top: 388px;
+  top: 418px;
   object-fit: cover;
 }
 .moter-green-4 {
@@ -720,7 +727,7 @@
   height: 27px;
   position: absolute;
   left: 682px;
-  top: 392px;
+  top: 422px;
   object-fit: cover;
 }
 .moter-red-5 {
@@ -728,7 +735,7 @@
   height: 40px;
   position: absolute;
   left: 736px;
-  top: 388px;
+  top: 418px;
   object-fit: cover;
 }
 .moter-green-5 {
@@ -736,7 +743,7 @@
   height: 27px;
   position: absolute;
   left: 743px;
-  top: 392px;
+  top: 422px;
   object-fit: cover;
 }
 .moter-red-6 {
@@ -744,7 +751,7 @@
   height: 40px;
   position: absolute;
   left: 932px;
-  top: 388px;
+  top: 418px;
   object-fit: cover;
 }
 .moter-green-6 {
@@ -752,7 +759,7 @@
   height: 27px;
   position: absolute;
   left: 938px;
-  top: 392px;
+  top: 422px;
   object-fit: cover;
 }
 .moter-red-7 {
@@ -760,7 +767,7 @@
   height: 40px;
   position: absolute;
   left: 996px;
-  top: 388px;
+  top: 418px;
   object-fit: cover;
 }
 .moter-green-7 {
@@ -768,7 +775,7 @@
   height: 27px;
   position: absolute;
   left: 1002px;
-  top: 392px;
+  top: 422px;
   object-fit: cover;
 }
 .moter-red-8 {
@@ -776,7 +783,7 @@
   height: 39px;
   position: absolute;
   left: 1098px;
-  top: 386px;
+  top: 416px;
   object-fit: cover;
 }
 .moter-green-8 {
@@ -784,7 +791,7 @@
   height: 27px;
   position: absolute;
   left: 1104px;
-  top: 390px;
+  top: 420px;
   object-fit: cover;
 }
 .moter-red-9 {
@@ -792,7 +799,7 @@
   height: 39px;
   position: absolute;
   left: 1158px;
-  top: 386px;
+  top: 416px;
   object-fit: cover;
 }
 .moter-green-9 {
@@ -800,7 +807,7 @@
   height: 27px;
   position: absolute;
   left: 1164px;
-  top: 390px;
+  top: 420px;
   object-fit: cover;
 }
 .bupum-red-2 {
@@ -808,7 +815,7 @@
   height: 38px;
   position: absolute;
   left: 1237px;
-  top: 388px;
+  top: 418px;
   object-fit: cover;
 }
 .bupum-green-2 {
@@ -816,7 +823,7 @@
   height: 37px;
   position: absolute;
   left: 1242px;
-  top: 388px;
+  top: 418px;
   object-fit: cover;
 }
 .bupum-yellow-2 {
@@ -824,7 +831,7 @@
   height: 35px;
   position: absolute;
   left: 1239px;
-  top: 390px;
+  top: 420px;
   object-fit: cover;
 }
 .bupum-red-3 {
@@ -832,7 +839,7 @@
   height: 38px;
   position: absolute;
   left: 1601px;
-  top: 388px;
+  top: 418px;
   object-fit: cover;
 }
 .bupum-green-3 {
@@ -840,7 +847,7 @@
   height: 37px;
   position: absolute;
   left: 1606px;
-  top: 388px;
+  top: 418px;
   object-fit: cover;
 }
 .bupum-yellow-3 {
@@ -848,7 +855,7 @@
   height: 35px;
   position: absolute;
   left: 1604px;
-  top: 390px;
+  top: 420px;
   object-fit: cover;
 }
 .moter-red-10 {
@@ -856,7 +863,7 @@
   height: 42px;
   position: absolute;
   left: 1267px;
-  top: 392px;
+  top: 422px;
   object-fit: cover;
 }
 .moter-green-10 {
@@ -864,7 +871,7 @@
   height: 27px;
   position: absolute;
   left: 1274px;
-  top: 396px;
+  top: 426px;
   object-fit: cover;
 }
 .moter-red-11 {
@@ -872,7 +879,7 @@
   height: 42px;
   position: absolute;
   left: 1319px;
-  top: 392px;
+  top: 422px;
   object-fit: cover;
 }
 .moter-green-11 {
@@ -880,7 +887,7 @@
   height: 27px;
   position: absolute;
   left: 1326px;
-  top: 396px;
+  top: 426px;
   object-fit: cover;
 }
 .moter-red-12 {
@@ -888,7 +895,7 @@
   height: 42px;
   position: absolute;
   left: 1631px;
-  top: 392px;
+  top: 422px;
   object-fit: cover;
 }
 .moter-green-12 {
@@ -896,7 +903,7 @@
   height: 27px;
   position: absolute;
   left: 1637px;
-  top: 396px;
+  top: 426px;
   object-fit: cover;
 }
 .moter-red-13 {
@@ -904,7 +911,7 @@
   height: 42px;
   position: absolute;
   left: 1681px;
-  top: 392px;
+  top: 422px;
   object-fit: cover;
 }
 .moter-green-13 {
@@ -912,7 +919,7 @@
   height: 27px;
   position: absolute;
   left: 1690px;
-  top: 396px;
+  top: 426px;
   object-fit: cover;
 }
 .door-green-1 {
@@ -924,7 +931,7 @@
   height: 123px;
   position: absolute;
   left: 558px;
-  top: 257px;
+  top: 287px;
 }
 .door-yellow-1 {
   background: #faff00;
@@ -935,7 +942,7 @@
   height: 121px;
   position: absolute;
   left: 558px;
-  top: 211px;
+  top: 241px;
 }
 .door-red-1 {
   background: #ff0000;
@@ -946,7 +953,7 @@
   height: 122px;
   position: absolute;
   left: 558px;
-  top: 165px;
+  top: 195px;
 }
 .door-green-2 {
   background: #189f0d;
@@ -957,7 +964,7 @@
   height: 123px;
   position: absolute;
   left: 653px;
-  top: 257px;
+  top: 287px;
 }
 .door-yellow-2 {
   background: #faff00;
@@ -968,7 +975,7 @@
   height: 121px;
   position: absolute;
   left: 653px;
-  top: 211px;
+  top: 241px;
 }
 .door-red-2 {
   background: #ff0000;
@@ -979,7 +986,7 @@
   height: 122px;
   position: absolute;
   left: 653px;
-  top: 165px;
+  top: 195px;
 }
 .door-green-3 {
   background: #189f0d;
@@ -990,7 +997,7 @@
   height: 123px;
   position: absolute;
   left: 1073px;
-  top: 257px;
+  top: 287px;
 }
 .door-yellow-3 {
   background: #faff00;
@@ -1001,7 +1008,7 @@
   height: 121px;
   position: absolute;
   left: 1073px;
-  top: 211px;
+  top: 241px;
 }
 .door-red-3 {
   background: #ff0000;
@@ -1012,7 +1019,7 @@
   height: 122px;
   position: absolute;
   left: 1073px;
-  top: 165px;
+  top: 195px;
 }
 .door-green-4 {
   background: #189f0d;
@@ -1023,7 +1030,7 @@
   height: 112px;
   position: absolute;
   left: 1283px;
-  top: 241px;
+  top: 271px;
 }
 .door-yellow-4 {
   background: #faff00;
@@ -1034,7 +1041,7 @@
   height: 109px;
   position: absolute;
   left: 1283px;
-  top: 200px;
+  top: 230px;
 }
 .door-red-4 {
   background: #ff0000;
@@ -1045,7 +1052,7 @@
   height: 111px;
   position: absolute;
   left: 1283px;
-  top: 157px;
+  top: 187px;
 }
 .door-green-5 {
   background: #189f0d;
@@ -1056,7 +1063,7 @@
   height: 112px;
   position: absolute;
   left: 1380px;
-  top: 241px;
+  top: 271px;
 }
 .door-yellow-5 {
   background: #faff00;
@@ -1067,7 +1074,7 @@
   height: 109px;
   position: absolute;
   left: 1380px;
-  top: 200px;
+  top: 230px;
 }
 .door-red-5 {
   background: #ff0000;
@@ -1078,7 +1085,7 @@
   height: 111px;
   position: absolute;
   left: 1380px;
-  top: 157px;
+  top: 187px;
 }
 .door-green-6 {
   background: #189f0d;
@@ -1089,7 +1096,7 @@
   height: 103px;
   position: absolute;
   left: 1491px;
-  top: 261px;
+  top: 291px;
 }
 .door-yellow-6 {
   background: #faff00;
@@ -1100,7 +1107,7 @@
   height: 99px;
   position: absolute;
   left: 1491px;
-  top: 224px;
+  top: 254px;
 }
 .door-red-6 {
   background: #ff0000;
@@ -1111,7 +1118,7 @@
   height: 103px;
   position: absolute;
   left: 1491px;
-  top: 184px;
+  top: 214px;
 }
 .door-green-7 {
   background: #189f0d;
@@ -1122,7 +1129,7 @@
   height: 111px;
   position: absolute;
   left: 1585px;
-  top: 252px;
+  top: 282px;
 }
 .door-yellow-7 {
   background: #faff00;
@@ -1133,7 +1140,7 @@
   height: 109px;
   position: absolute;
   left: 1585px;
-  top: 209px;
+  top: 239px;
 }
 .door-red-7 {
   background: #ff0000;
@@ -1144,14 +1151,14 @@
   height: 110px;
   position: absolute;
   left: 1585px;
-  top: 168px;
+  top: 198px;
 }
 .yello-left-1 {
   width: 18px;
   height: 22px;
   position: absolute;
   left: 192px;
-  top: 376px;
+  top: 406px;
   object-fit: cover;
 }
 .yello-right-1 {
@@ -1159,7 +1166,7 @@
   height: 22px;
   position: absolute;
   left: 210px;
-  top: 376px;
+  top: 406px;
   object-fit: cover;
 }
 .yello-left-2 {
@@ -1167,7 +1174,7 @@
   height: 24px;
   position: absolute;
   left: 408px;
-  top: 426px;
+  top: 456px;
   object-fit: cover;
 }
 .yello-left-3 {
@@ -1175,7 +1182,7 @@
   height: 24px;
   position: absolute;
   left: 524px;
-  top: 426px;
+  top: 456px;
   object-fit: cover;
 }
 .yello-left-4 {
@@ -1183,7 +1190,7 @@
   height: 23px;
   position: absolute;
   left: 594px;
-  top: 424px;
+  top: 454px;
   object-fit: cover;
 }
 .yello-left-5 {
@@ -1191,7 +1198,7 @@
   height: 23px;
   position: absolute;
   left: 691px;
-  top: 424px;
+  top: 454px;
   object-fit: cover;
 }
 .yello-left-6 {
@@ -1199,7 +1206,7 @@
   height: 23px;
   position: absolute;
   left: 755px;
-  top: 424px;
+  top: 454px;
   object-fit: cover;
 }
 .yello-left-7 {
@@ -1207,7 +1214,7 @@
   height: 23px;
   position: absolute;
   left: 947px;
-  top: 424px;
+  top: 454px;
   object-fit: cover;
 }
 .yello-left-8 {
@@ -1215,7 +1222,7 @@
   height: 23px;
   position: absolute;
   left: 1014px;
-  top: 424px;
+  top: 454px;
   object-fit: cover;
 }
 .yello-left-9 {
@@ -1223,7 +1230,7 @@
   height: 22px;
   position: absolute;
   left: 1115px;
-  top: 420px;
+  top: 450px;
   object-fit: cover;
 }
 .yello-left-10 {
@@ -1231,7 +1238,7 @@
   height: 22px;
   position: absolute;
   left: 1176px;
-  top: 420px;
+  top: 450px;
   object-fit: cover;
 }
 .yello-left-11 {
@@ -1239,7 +1246,7 @@
   height: 23px;
   position: absolute;
   left: 1268px;
-  top: 428px;
+  top: 458px;
   object-fit: cover;
 }
 .yello-left-12 {
@@ -1247,7 +1254,7 @@
   height: 23px;
   position: absolute;
   left: 1328px;
-  top: 428px;
+  top: 458px;
   object-fit: cover;
 }
 .yello-left-13 {
@@ -1255,7 +1262,7 @@
   height: 22px;
   position: absolute;
   left: 1245px;
-  top: 360px;
+  top: 390px;
   object-fit: cover;
 }
 .yello-right-2 {
@@ -1263,7 +1270,7 @@
   height: 22px;
   position: absolute;
   left: 1264px;
-  top: 360px;
+  top: 390px;
   object-fit: cover;
 }
 .yello-left-14 {
@@ -1271,7 +1278,7 @@
   height: 22px;
   position: absolute;
   left: 1606px;
-  top: 360px;
+  top: 390px;
   object-fit: cover;
 }
 .yello-right-3 {
@@ -1279,7 +1286,7 @@
   height: 22px;
   position: absolute;
   left: 1625px;
-  top: 360px;
+  top: 390px;
   object-fit: cover;
 }
 .yello-left-15 {
@@ -1287,7 +1294,7 @@
   height: 23px;
   position: absolute;
   left: 1633px;
-  top: 428px;
+  top: 458px;
   object-fit: cover;
 }
 .yello-left-16 {
@@ -1295,7 +1302,7 @@
   height: 23px;
   position: absolute;
   left: 1685px;
-  top: 428px;
+  top: 458px;
   object-fit: cover;
 }
 .yello-right-4 {
@@ -1303,7 +1310,7 @@
   height: 23px;
   position: absolute;
   left: 1704px;
-  top: 428px;
+  top: 458px;
   object-fit: cover;
 }
 .flu-1 {
@@ -1311,7 +1318,7 @@
   height: 25px;
   position: absolute;
   left: 197px;
-  top: 371px;
+  top: 401px;
   object-fit: cover;
 }
 .flu-2 {
@@ -1319,7 +1326,7 @@
   height: 19px;
   position: absolute;
   left: 1280px;
-  top: 347px;
+  top: 377px;
   object-fit: cover;
 }
 .flu-3 {
@@ -1327,7 +1334,7 @@
   height: 19px;
   position: absolute;
   left: 1606px;
-  top: 344px;
+  top: 374px;
   object-fit: cover;
 }
 .sensor-red-1 {
@@ -1335,7 +1342,7 @@
   height: 25px;
   position: absolute;
   left: 656px;
-  top: 342px;
+  top: 372px;
   object-fit: cover;
 }
 .sensor-green-1 {
@@ -1343,7 +1350,7 @@
   height: 31px;
   position: absolute;
   left: 658px;
-  top: 338px;
+  top: 368px;
   object-fit: cover;
 }
 .sensor-red-2 {
@@ -1351,7 +1358,7 @@
   height: 25px;
   position: absolute;
   left: 702px;
-  top: 342px;
+  top: 372px;
   object-fit: cover;
 }
 .sensor-green-2 {
@@ -1359,7 +1366,7 @@
   height: 31px;
   position: absolute;
   left: 703px;
-  top: 338px;
+  top: 368px;
   object-fit: cover;
 }
 .sensor-red-3 {
@@ -1367,7 +1374,7 @@
   height: 25px;
   position: absolute;
   left: 837px;
-  top: 342px;
+  top: 372px;
   object-fit: cover;
 }
 .sensor-green-3 {
@@ -1375,7 +1382,7 @@
   height: 31px;
   position: absolute;
   left: 838px;
-  top: 338px;
+  top: 368px;
   object-fit: cover;
 }
 .sensor-red-4 {
@@ -1383,7 +1390,7 @@
   height: 25px;
   position: absolute;
   left: 1016px;
-  top: 342px;
+  top: 372px;
   object-fit: cover;
 }
 .sensor-green-4 {
@@ -1391,7 +1398,7 @@
   height: 31px;
   position: absolute;
   left: 1017px;
-  top: 338px;
+  top: 368px;
   object-fit: cover;
 }
 .process-data-box {
@@ -1403,7 +1410,7 @@
   height: 183px;
   position: absolute;
   left: 19px;
-  top: 568px;
+  top: 598px;
 }
 .process-data-text {
   color: #000000;
@@ -1413,7 +1420,7 @@
   font-weight: 700;
   position: absolute;
   left: 39px;
-  top: 585px;
+  top: 615px;
   -webkit-text-stroke: 1px #ffffff;
 }
 .process-time-box {
@@ -1426,7 +1433,7 @@
   height: 50px;
   position: absolute;
   left: 25px;
-  top: 634px;
+  top: 664px;
 }
 .process-time-text {
   color: #ffffff;
@@ -1436,7 +1443,7 @@
   font-weight: 700;
   position: absolute;
   left: 41px;
-  top: 643px;
+  top: 673px;
   width: 65px;
   height: 29px;
 }
@@ -1450,7 +1457,7 @@
   height: 50px;
   position: absolute;
   left: 25px;
-  top: 694px;
+  top: 724px;
 }
 .temperature-text {
   color: #ffffff;
@@ -1460,7 +1467,7 @@
   font-weight: 700;
   position: absolute;
   left: 57px;
-  top: 701px;
+  top: 731px;
   width: 31px;
   height: 30px;
 }
@@ -1474,7 +1481,7 @@
   height: 20px;
   position: absolute;
   left: 127px;
-  top: 635px;
+  top: 665px;
 }
 .process-time-pv-text {
   background: #004ade;
@@ -1486,7 +1493,7 @@
   height: 20px;
   position: absolute;
   left: 127px;
-  top: 662px;
+  top: 692px;
 }
 .temperature-sp-text {
   background: #123478;
@@ -1498,7 +1505,7 @@
   height: 20px;
   position: absolute;
   left: 127px;
-  top: 695px;
+  top: 725px;
 }
 .temperature-pv-text {
   background: #004ade;
@@ -1510,7 +1517,7 @@
   height: 20px;
   position: absolute;
   left: 127px;
-  top: 722px;
+  top: 752px;
 }
 .tem-cool-sp {
   background: #ffffff;
@@ -1522,7 +1529,7 @@
   height: 24px;
   position: absolute;
   left: 208px;
-  top: 634px;
+  top: 664px;
 }
 .tem-cool-pv {
   background: #ffffff;
@@ -1534,7 +1541,7 @@
   height: 24px;
   position: absolute;
   left: 208px;
-  top: 661px;
+  top: 691px;
 }
 .block-1 {
   background: #666666;
@@ -1546,7 +1553,7 @@
   height: 51px;
   position: absolute;
   left: 208px;
-  top: 692px;
+  top: 722px;
 }
 .tem-sp {
   background: #ffffff;
@@ -1558,7 +1565,7 @@
   height: 24px;
   position: absolute;
   left: 289px;
-  top: 634px;
+  top: 664px;
 }
 .tem-pv {
   background: #ffffff;
@@ -1570,7 +1577,7 @@
   height: 24px;
   position: absolute;
   left: 289px;
-  top: 661px;
+  top: 691px;
 }
 .tem-3-sp {
   background: #ffffff;
@@ -1582,7 +1589,7 @@
   height: 24px;
   position: absolute;
   left: 289px;
-  top: 692px;
+  top: 722px;
 }
 .tem-3-pv {
   background: #ffffff;
@@ -1594,7 +1601,7 @@
   height: 24px;
   position: absolute;
   left: 289px;
-  top: 719px;
+  top: 749px;
 }
 .tem-2-sp {
   background: #ffffff;
@@ -1606,7 +1613,7 @@
   height: 24px;
   position: absolute;
   left: 369px;
-  top: 692px;
+  top: 722px;
 }
 .tem-2-pv {
   background: #ffffff;
@@ -1618,7 +1625,7 @@
   height: 24px;
   position: absolute;
   left: 369px;
-  top: 719px;
+  top: 749px;
 }
 .tem-1-sp {
   background: #ffffff;
@@ -1630,7 +1637,7 @@
   height: 24px;
   position: absolute;
   left: 449px;
-  top: 692px;
+  top: 722px;
 }
 .tem-1-pv {
   background: #ffffff;
@@ -1642,7 +1649,7 @@
   height: 24px;
   position: absolute;
   left: 449px;
-  top: 719px;
+  top: 749px;
 }
 .exit-sp {
   background: #ffffff;
@@ -1654,7 +1661,7 @@
   height: 24px;
   position: absolute;
   left: 542px;
-  top: 634px;
+  top: 664px;
 }
 .exit-pv {
   background: #ffffff;
@@ -1666,7 +1673,7 @@
   height: 24px;
   position: absolute;
   left: 542px;
-  top: 661px;
+  top: 691px;
 }
 .block-2 {
   background: #666666;
@@ -1678,7 +1685,7 @@
   height: 51px;
   position: absolute;
   left: 542px;
-  top: 692px;
+  top: 722px;
 }
 .air-sp {
   background: #ffffff;
@@ -1690,7 +1697,7 @@
   height: 24px;
   position: absolute;
   left: 622px;
-  top: 634px;
+  top: 664px;
 }
 .air-pv {
   background: #ffffff;
@@ -1702,7 +1709,7 @@
   height: 24px;
   position: absolute;
   left: 622px;
-  top: 661px;
+  top: 691px;
 }
 .rins-sp {
   background: #ffffff;
@@ -1714,7 +1721,7 @@
   height: 24px;
   position: absolute;
   left: 702px;
-  top: 634px;
+  top: 664px;
 }
 .rins-pv {
   background: #ffffff;
@@ -1726,7 +1733,7 @@
   height: 24px;
   position: absolute;
   left: 702px;
-  top: 661px;
+  top: 691px;
 }
 .rins-tem-sp {
   background: #ffffff;
@@ -1738,7 +1745,7 @@
   height: 24px;
   position: absolute;
   left: 702px;
-  top: 692px;
+  top: 722px;
 }
 .rins-tem-pv {
   background: #ffffff;
@@ -1750,7 +1757,7 @@
   height: 24px;
   position: absolute;
   left: 702px;
-  top: 719px;
+  top: 749px;
 }
 .spray-sp {
   background: #ffffff;
@@ -1762,7 +1769,7 @@
   height: 24px;
   position: absolute;
   left: 782px;
-  top: 634px;
+  top: 664px;
 }
 .spray-pv {
   background: #ffffff;
@@ -1774,7 +1781,7 @@
   height: 24px;
   position: absolute;
   left: 782px;
-  top: 661px;
+  top: 691px;
 }
 .block-3 {
   background: #666666;
@@ -1786,7 +1793,7 @@
   height: 51px;
   position: absolute;
   left: 782px;
-  top: 692px;
+  top: 722px;
 }
 .drain-sp {
   background: #ffffff;
@@ -1798,7 +1805,7 @@
   height: 24px;
   position: absolute;
   left: 862px;
-  top: 634px;
+  top: 664px;
 }
 .drain-pv {
   background: #ffffff;
@@ -1810,7 +1817,7 @@
   height: 24px;
   position: absolute;
   left: 862px;
-  top: 661px;
+  top: 691px;
 }
 .drain-diping-tem-sp {
   background: #ffffff;
@@ -1822,7 +1829,7 @@
   height: 24px;
   position: absolute;
   left: 862px;
-  top: 692px;
+  top: 722px;
 }
 .drain-diping-tem-pv {
   background: #ffffff;
@@ -1834,7 +1841,7 @@
   height: 24px;
   position: absolute;
   left: 862px;
-  top: 719px;
+  top: 749px;
 }
 .diping-sp {
   background: #ffffff;
@@ -1846,7 +1853,7 @@
   height: 24px;
   position: absolute;
   left: 942px;
-  top: 634px;
+  top: 664px;
 }
 .diping-pv {
   background: #ffffff;
@@ -1858,7 +1865,7 @@
   height: 24px;
   position: absolute;
   left: 942px;
-  top: 661px;
+  top: 691px;
 }
 .chim-box {
   background: #123478;
@@ -1870,7 +1877,7 @@
   height: 53px;
   position: absolute;
   left: 205px;
-  top: 574px;
+  top: 604px;
 }
 .chim-box2 {
   background: #123478;
@@ -1882,7 +1889,7 @@
   height: 53px;
   position: absolute;
   left: 536px;
-  top: 574px;
+  top: 604px;
 }
 .time-sp-text {
   color: #ffffff;
@@ -1892,7 +1899,7 @@
   font-weight: 700;
   position: absolute;
   left: 149px;
-  top: 637px;
+  top: 667px;
 }
 .time-pv-text {
   color: #ffffff;
@@ -1902,7 +1909,7 @@
   font-weight: 700;
   position: absolute;
   left: 149px;
-  top: 664px;
+  top: 694px;
 }
 .tem-sp-text {
   color: #ffffff;
@@ -1912,7 +1919,7 @@
   font-weight: 700;
   position: absolute;
   left: 149px;
-  top: 697px;
+  top: 727px;
 }
 .tem-pv-text {
   color: #ffffff;
@@ -1922,7 +1929,7 @@
   font-weight: 700;
   position: absolute;
   left: 149px;
-  top: 724px;
+  top: 754px;
 }
 .hit-mini-box {
   background: #000000;
@@ -1931,7 +1938,7 @@
   height: 28px;
   position: absolute;
   left: 209px;
-  top: 596px;
+  top: 626px;
 }
 .hit-mini-text {
   color: #ffffff;
@@ -1941,7 +1948,7 @@
   font-weight: 400;
   position: absolute;
   left: 206px;
-  top: 598px;
+  top: 628px;
   width: 83px;
 }
 .hit-mini-box2 {
@@ -1951,7 +1958,7 @@
   height: 28px;
   position: absolute;
   left: 289px;
-  top: 596px;
+  top: 626px;
 }
 .hit-mini-text2 {
   color: #ffffff;
@@ -1961,7 +1968,7 @@
   font-weight: 400;
   position: absolute;
   left: 294px;
-  top: 598px;
+  top: 628px;
   width: 68px;
 }
 .hit-mini-box3 {
@@ -1971,7 +1978,7 @@
   height: 28px;
   position: absolute;
   left: 369px;
-  top: 596px;
+  top: 626px;
 }
 .hit-mini-text3 {
   color: #ffffff;
@@ -1981,7 +1988,7 @@
   font-weight: 400;
   position: absolute;
   left: 374px;
-  top: 598px;
+  top: 628px;
   width: 67px;
 }
 .hit-mini-box4 {
@@ -1991,7 +1998,7 @@
   height: 28px;
   position: absolute;
   left: 449px;
-  top: 596px;
+  top: 626px;
 }
 .hit-mini-text4 {
   color: #ffffff;
@@ -2001,7 +2008,7 @@
   font-weight: 400;
   position: absolute;
   left: 455px;
-  top: 598px;
+  top: 628px;
   width: 66px;
   height: 32px;
 }
@@ -2012,7 +2019,7 @@
   height: 28px;
   position: absolute;
   left: 542px;
-  top: 596px;
+  top: 626px;
 }
 .hit-mini-text5 {
   color: #ffffff;
@@ -2022,7 +2029,7 @@
   font-weight: 400;
   position: absolute;
   left: 551px;
-  top: 598px;
+  top: 628px;
   width: 60px;
 }
 .hit-mini-box6 {
@@ -2032,7 +2039,7 @@
   height: 28px;
   position: absolute;
   left: 622px;
-  top: 596px;
+  top: 626px;
 }
 .hit-mini-text6 {
   color: #ffffff;
@@ -2042,7 +2049,7 @@
   font-weight: 400;
   position: absolute;
   left: 626px;
-  top: 598px;
+  top: 628px;
   width: 70px;
 }
 .hit-mini-box7 {
@@ -2052,7 +2059,7 @@
   height: 28px;
   position: absolute;
   left: 702px;
-  top: 596px;
+  top: 626px;
 }
 .hit-mini-text7 {
   color: #ffffff;
@@ -2062,7 +2069,7 @@
   font-weight: 400;
   position: absolute;
   left: 731px;
-  top: 604px;
+  top: 634px;
   width: 24px;
 }
 .hit-mini-box8 {
@@ -2072,7 +2079,7 @@
   height: 28px;
   position: absolute;
   left: 782px;
-  top: 596px;
+  top: 626px;
 }
 .hit-mini-text8 {
   color: #ffffff;
@@ -2082,7 +2089,7 @@
   font-weight: 400;
   position: absolute;
   left: 802px;
-  top: 604px;
+  top: 634px;
   width: 45px;
 }
 .hit-mini-box9 {
@@ -2092,7 +2099,7 @@
   height: 28px;
   position: absolute;
   left: 862px;
-  top: 596px;
+  top: 626px;
 }
 .hit-mini-text9 {
   color: #ffffff;
@@ -2102,7 +2109,7 @@
   font-weight: 400;
   position: absolute;
   left: 886px;
-  top: 604px;
+  top: 634px;
   width: 36px;
 }
 .hit-mini-box10 {
@@ -2112,7 +2119,7 @@
   height: 28px;
   position: absolute;
   left: 942px;
-  top: 596px;
+  top: 626px;
 }
 .hit-mini-text10 {
   color: #ffffff;
@@ -2122,7 +2129,7 @@
   font-weight: 400;
   position: absolute;
   left: 971px;
-  top: 603px;
+  top: 633px;
   width: 25px;
 }
 .pre-text {
@@ -2133,7 +2140,7 @@
   font-weight: 700;
   position: absolute;
   left: 343px;
-  top: 576px;
+  top: 606px;
 }
 .pre-text2 {
   color: #ffffff;
@@ -2143,7 +2150,7 @@
   font-weight: 700;
   position: absolute;
   left: 763px;
-  top: 577px;
+  top: 607px;
 }
 .frame-1 {
   border-style: solid;
@@ -2153,6 +2160,6 @@
   height: 262px;
   position: absolute;
   left: 1043px;
-  top: 526px;
+  top: 556px;
   overflow: hidden;
 }

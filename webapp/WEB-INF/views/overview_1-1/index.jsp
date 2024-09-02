@@ -30,7 +30,9 @@
    
        -webkit-font-smoothing: antialiased;
    }
-   
+        .footer{
+  	 margin-top:85px;
+   }
    menu, ol, ul {
        list-style-type: none;
        margin: 0;
@@ -42,11 +44,11 @@
 <body>
   <div class="overview-1-1">
     <div class="group-1">
-      <div class="header"></div>
-      <div class="footer"></div>
+     <div class="header"><%@ include file="/WEB-INF/resources/header/index.jsp" %></div>
+
+       <div id="ft">  <%@ include file="/WEB-INF/resources/footer/index.jsp" %></div>
       <div class="main"></div>
-      <img class="hamburger-icon-svg-1" src="/DHT/image/overview_1_1/hamburger-icon-svg-10.png" />
-    </div>
+      </div>
     <img class="ccf" src="/DHT/image/overview_1_1/ccf0.png" />
     <div class="ccf-floor"></div>
     <div class="ccf-floor-box"></div>
@@ -618,6 +620,6 @@
     <div class="q-time-252"></div>
     <div class="q-time-27"></div>
   </div>
-  
+
 </body>
 </html>

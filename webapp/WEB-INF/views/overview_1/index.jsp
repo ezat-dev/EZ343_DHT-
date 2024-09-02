@@ -40,14 +40,17 @@
    </style>
   <title>Document</title>
 </head>
+
+
+
 <body>
   <div class="overview-1">
     <div class="group-1">
-      <div class="header"></div>
-      <div class="footer"></div>
+      <div class="header"><%@ include file="/WEB-INF/resources/header/index.jsp" %></div>
+
+       <div id="ft">  <%@ include file="/WEB-INF/resources/footer/index.jsp" %></div>
       <div class="main"></div>
-      <img class="hamburger-icon-svg-1" src="/DHT/image/overview_1/hamburger-icon-svg-10.png" />
-    </div>
+       </div>
     <img class="ccf" src="/DHT/image/overview_1/ccf0.png" />
     <div class="ccf-floor"></div>
     <div class="ccf-floor-box"></div>
@@ -464,6 +467,6 @@
     <img class="tong-28" src="tong-280.png" />
     <div class="frame-1"></div>
   </div>
-  
+
 </body>
 </html>

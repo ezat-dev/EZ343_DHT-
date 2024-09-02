@@ -10,6 +10,9 @@
   
   
   <style>
+ 
+	
+
    a,
    button,
    input,
@@ -35,20 +38,25 @@
        margin: 0;
        padding: 0;
    }
+   .footer{
+   margin-top:85px;
+
+   }
    </style>
   <title>Document</title>
 </head>
 <body>
+
+
   <div class="alarm-list">
     <div class="group-2">
-      <div class="header"></div>
-      <div class="footer"></div>
-      <div class="main"></div>
-      <img class="hamburger-icon-svg-1" src="/DHT/image/alarm_list/hamburger-icon-svg-10.png" />
-    </div>
+ 	<div class="header"><%@ include file="/WEB-INF/resources/header/index.jsp" %></div>
+       <div id="ft">  <%@ include file="/WEB-INF/resources/footer/index.jsp" %></div>
+      <div class="main">    
+   </div>
     <div class="alarm-big-box"></div>
     <div class="alarm-1"></div>
-    <div class="ccf-entrance-lifter-abnormal">CCF ENTRANCE LIFTER ABNORMAL</div>
+    <div class="ccf-entrance-lifter-abnormal">공통로 알람 리스트</div>
     <div class="alarm-2"></div>
     <div class="alarm-3"></div>
     <div class="alarm-4"></div>
@@ -104,6 +112,6 @@
     <div class="alarm-163"></div>
     <div class="alarm-173"></div>
   </div>
-  
+  </div>
 </body>
 </html>

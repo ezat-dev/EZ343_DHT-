@@ -28,7 +28,9 @@
    
        -webkit-font-smoothing: antialiased;
    }
-   
+        .footer{
+  	 margin-top:85px;
+   }
    menu, ol, ul {
        list-style-type: none;
        margin: 0;
@@ -40,11 +42,11 @@
 <body>
   <div class="overview-2">
     <div class="group-1">
-      <div class="header"></div>
+      <div class="header"><%@ include file="/WEB-INF/resources/header/index.jsp" %></div>
+	  <div id="ft">  <%@ include file="/WEB-INF/resources/footer/index.jsp" %></div>
       <div class="footer"></div>
       <div class="main"></div>
-      <img class="hamburger-icon-svg-1" src="/DHT/image/overview_2/hamburger-icon-svg-10.png" />
-    </div>
+       </div>
     <img class="background-1" src="/DHT/image/overview_2/background-10.png" />
     <img class="cm" src="/DHT/image/overview_2/cm0.png" />
     <img class="short-1" src="/DHT/image/overview_2/short-10.png" />
@@ -294,7 +296,7 @@
     <div class="pre-text2">세정기</div>
     <div class="frame-1"></div>
   </div>
-  
+
 </body>
 </html>
  
